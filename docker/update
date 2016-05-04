@@ -12,4 +12,3 @@ printf 'composer update triggered' > build/commit.txt
 ./run dr.chefkoch.net/display-pattern-lab-dev composer --no-interaction --no-ansi update >> build/commit.txt
 ./run dr.chefkoch.net/display-pattern-lab-dev bash -c "cd vendor/chefkoch/display-patterns && npm install"
 ./run dr.chefkoch.net/display-pattern-lab-dev node_modules/.bin/gulp build
-ui
