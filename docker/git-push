@@ -8,5 +8,5 @@ git add .
 
 if ! git diff --quiet HEAD; then
     git -c user.name="Maintenance Bot" -c user.email="team-magazin@chefkoch.de" commit -a -F  build/commit.txt
-    git push upstream "${bamboo_planRepository_branchName}"
+    git push origin "${bamboo_planRepository_branchName}"
 fi
